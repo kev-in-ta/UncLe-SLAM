@@ -1,0 +1,7 @@
+inherit_from: configs/Replica_SenFuNet/replica.yaml
+mapping:
+  bound: [[-5, 5], [-5, 5], [-3, 3]]
+  marching_cubes_bound: [[-5, 5], [-5, 5], [-3, 3]]
+data:
+  input_folder: Datasets/Replica_SenFuNet/office_1/1
+  output: output/Replica_SenFuNet/office_1/1

@@ -1,0 +1,42 @@
+dataset: 7scenes
+meshing:
+  eval_rec: True
+grid_len:
+  middle: 0.32
+  fine: 0.16
+  color: 0.16
+  bound_divisible: 0.32
+tracking:
+  vis_freq: 50
+  vis_inside_freq: 50
+  ignore_edge_W: 20
+  ignore_edge_H: 20
+  seperate_LR: True
+  const_speed_assumption: True
+  use_color_in_tracking: False
+  gt_camera: False
+  lr: 0.001
+  pixels: 5000
+  iters: 10
+mapping:
+  use_color_in_mapping: False
+  every_frame: 5
+  vis_freq: 50
+  vis_inside_freq: 50
+  mesh_freq: 500
+  ckpt_freq: 500
+  keyframe_every: 50
+  mapping_window_size: 10
+  pixels: 5000
+  iters_first: 1500
+  iters: 60
+
+cam:
+  H: 480
+  W: 640
+  fx: 585.0
+  fy: 585.0
+  cx: 320.0
+  cy: 240.0
+  png_depth_scale: 1000.0
+  crop_edge: 0

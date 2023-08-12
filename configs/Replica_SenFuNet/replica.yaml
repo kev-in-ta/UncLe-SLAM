@@ -1,0 +1,40 @@
+dataset: replica_senfunet
+threshold: 0.01
+num_sensors: 2
+meshing:
+  eval_rec: True
+  clean_mesh: False
+tracking:
+  vis_freq: 25
+  vis_inside_freq: 25
+  ignore_edge_W: 20
+  ignore_edge_H: 20
+  seperate_LR: False
+  const_speed_assumption: True
+  use_color_in_tracking: True
+  gt_camera: False
+  lr: 0.001
+  pixels: 5000
+  iters: 10
+mapping:
+  BA_cam_lr: 0.001
+  use_color_in_mapping: True
+  every_frame: 5
+  vis_freq: 25
+  vis_inside_freq: 50
+  mesh_freq: 300
+  ckpt_freq: 500
+  keyframe_every: 50
+  mapping_window_size: 5
+  pixels: 5000
+  iters_first: 1500
+  iters: 60
+cam:
+  H: 512
+  W: 512
+  fx: 256.0
+  fy: 256.0
+  cx: 256.0
+  cy: 256.0
+  png_depth_scale: 1000.0 #for depth image in png format
+  crop_edge: 0
