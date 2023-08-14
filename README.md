@@ -1,9 +1,4 @@
-
-
-<p align="center">
-  <h1><img src="media/UncLe-SLAM-logo.png" width="80">UncLe-SLAM</h1>
-
-## Uncertainty Learning for Dense Neural SLAM
+<h1 align="center"><img src="media/UncLe-SLAM-logo.png" width="80" style="display: inline-block; margin: 0 auto; vertical-align: middle">UncLe-SLAM: Uncertainty Learning for Dense Neural SLAM</h1>
 
 **[Erik Sandström](https://scholar.google.com/citations?hl=en&user=phiETm4AAAAJ)\*** • **[Kevin Ta](https://kevinta.dev/)\*** • **[Martin R. Oswald](https://scholar.google.com/citations?user=biytQP8AAAAJ&hl=en&oi=ao)** • **[Luc Van Gool](https://scholar.google.com/citations?hl=en&user=TwMib_QAAAAJ)**
 
