@@ -155,7 +155,7 @@ This code was built off of the incredible work done by [Zihan Zhu](https://zzh20
 @inproceedings{
 uncleslam2023,
 title={Uncle-{SLAM}: Uncertainty Learning for Dense Neural {SLAM}},
-author={Sandström, Erik and Ta, Kevin and Oswald, Martin R. and Gool, Luc Van},
+author={Sandström, Erik and Ta, Kevin and Gool, Luc Van and Oswald, Martin R.},
 booktitle={International Conference on Computer Vision Workshops (ICCVW),
 year={2023},
 }
